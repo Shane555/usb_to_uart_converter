@@ -2824,6 +2824,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "match impedance\nfor differential"
+		(exclude_from_sim no)
+		(at 68.834 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "135a5927-6ce6-4563-87bf-91591d472b2c")
+	)
 	(text "Mounting holes without connection for housing"
 		(exclude_from_sim no)
 		(at 203.2 140.716 0)
@@ -2833,6 +2843,12 @@
 			)
 		)
 		(uuid "9a4d016d-17b4-4ebc-863d-b7f1700d2618")
+	)
+	(junction
+		(at 96.52 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08df16f9-a80c-407c-b90e-bd489f53ae5d")
 	)
 	(junction
 		(at 109.22 119.38)
@@ -2865,12 +2881,6 @@
 		(uuid "668796f9-a3f9-43f7-9618-ee0d4421a1ea")
 	)
 	(junction
-		(at 88.9 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dc68118-6b58-470c-88ae-1fb00de935d5")
-	)
-	(junction
 		(at 76.2 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2895,7 +2905,7 @@
 		(uuid "cf06c29f-8872-4be5-80a7-d65abd4be1be")
 	)
 	(junction
-		(at 85.09 110.49)
+		(at 92.71 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e21be8a4-8770-496c-a73b-ffe4e6f281f4")
@@ -2907,7 +2917,7 @@
 		(uuid "ed43fbc5-177d-4cad-949a-4fe9216b27be")
 	)
 	(junction
-		(at 81.28 118.11)
+		(at 88.9 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f555015b-e4ba-43a4-8839-e11e0d458a6a")
@@ -3034,16 +3044,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 88.9 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1df1af62-0bef-49f9-809e-1cf991d9074f")
-	)
-	(wire
-		(pts
 			(xy 190.5 104.14) (xy 194.31 104.14)
 		)
 		(stroke
@@ -3074,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 118.11) (xy 81.28 118.11)
+			(xy 83.82 43.18) (xy 88.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 115.57) (xy 85.09 118.11)
+			(xy 92.71 40.64) (xy 92.71 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3154,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 110.49) (xy 85.09 110.49)
+			(xy 83.82 35.56) (xy 92.71 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3164,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 118.11) (xy 85.09 118.11)
+			(xy 88.9 43.18) (xy 92.71 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 55.88) (xy 135.89 55.88)
+			(xy 88.9 55.88) (xy 96.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3261,6 +3261,16 @@
 			(type default)
 		)
 		(uuid "70a30e93-0c0e-4c65-bf1a-3f625b6b3082")
+	)
+	(wire
+		(pts
+			(xy 96.52 55.88) (xy 135.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e4f437-63f2-451f-9b30-1332a4a2c85b")
 	)
 	(wire
 		(pts
@@ -3394,6 +3404,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 35.56) (xy 96.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b8ac21-3e91-4786-be51-609eb36cbf05")
+	)
+	(wire
+		(pts
 			(xy 153.67 81.28) (xy 158.75 81.28)
 		)
 		(stroke
@@ -3424,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 115.57) (xy 76.2 118.11)
+			(xy 83.82 40.64) (xy 83.82 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +3464,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 110.49) (xy 88.9 110.49)
+			(xy 92.71 35.56) (xy 96.52 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3641,6 +3661,26 @@
 			(justify left bottom)
 		)
 		(uuid "391a6281-d685-4d5f-bd4e-5e001a6ff328")
+	)
+	(label "D-"
+		(at 54.61 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a278ada-1a80-45f7-91c7-e675c6b679bc")
+	)
+	(label "D+"
+		(at 54.61 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4f75093-b960-4e97-8003-5685802e9732")
 	)
 	(global_label "VCCIO"
 		(shape input)
@@ -3917,7 +3957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_B_Amphenol_MUSB-D511_Vertical_Rugged"
+		(property "Footprint" "my_USB_Connectors:USB_B_Amphenol_MUSB-D511_Vertical_Rugged"
 			(at 48.26 102.87 0)
 			(effects
 				(font
@@ -4460,7 +4500,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:10uF_0603_6.3V_20%_Polar(Tant)")
-		(at 76.2 113.03 0)
+		(at 83.82 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4468,7 +4508,7 @@
 		(dnp no)
 		(uuid "75e1a788-ec08-44ef-b43a-62fb1b50c693")
 		(property "Reference" "C6"
-			(at 70.104 109.728 0)
+			(at 77.724 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4517,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 70.104 112.268 0)
+			(at 77.724 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4526,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric_Polar"
-			(at 76.2 133.35 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4535,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/tc-series.pdf"
-			(at 77.47 128.27 0)
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4544,7 @@
 			)
 		)
 		(property "Description" "Capacitor Tantalum 10uF 6.3V +/-20% 0603"
-			(at 76.2 130.81 0)
+			(at 83.82 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4553,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-13210"
-			(at 76.2 125.73 0)
+			(at 83.82 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4562,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 70.104 114.808 0)
+			(at 77.724 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4571,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 70.104 117.348 0)
+			(at 77.724 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +5005,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:0.1uF_0402_16V_10%")
-		(at 85.09 113.03 0)
+		(at 92.71 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4973,7 +5013,7 @@
 		(dnp no)
 		(uuid "9e9b4883-c11e-4797-97f8-b7457e36132e")
 		(property "Reference" "C3"
-			(at 89.408 109.728 0)
+			(at 97.028 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +5022,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 87.63 111.7662 0)
+			(at 95.25 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +5031,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
-			(at 85.09 124.46 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5040,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 85.09 127 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5049,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 132.08 0)
+			(at 92.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5058,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-25565"
-			(at 85.09 129.54 0)
+			(at 92.71 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5067,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 87.63 114.3062 0)
+			(at 95.25 39.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5076,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 87.63 116.8462 0)
+			(at 95.25 41.9162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5536,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 81.28 118.11 0)
+		(at 88.9 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5505,7 +5545,7 @@
 		(fields_autoplaced yes)
 		(uuid "d55dcf96-4303-4d32-875c-3ae1ecab28ec")
 		(property "Reference" "#PWR04"
-			(at 81.28 124.46 0)
+			(at 88.9 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 121.92 0)
+			(at 88.9 46.99 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5523,7 +5563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 118.11 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 118.11 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 127 0)
+			(at 88.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

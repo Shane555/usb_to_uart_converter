@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2026-06-22T22:54:54+08:00"
+    "CreationDate": "2026-07-04T16:22:35+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "usb_to_uart_converter",
       "GUID": "7573625f-746f-45f7-9561-72745f636f6e",
-      "Revision": "2.1"
+      "Revision": "2.2"
     },
     "Size": {
       "X": 73.05,
